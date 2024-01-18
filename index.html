@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zen Trades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="c">Zen Trades Task 2</h1>
+    <div id="import-section">
+        <input type="file" id="file-input" accept=".json" />
+        <div id="column-selector">
+            <select id="available-fields" multiple size="6">
+                <option value="Product Id">Product Id</option>
+                <option value="subcategory">Subcategory</option>
+                <option value="title">Title</option>
+                <option value="price">Price</option>
+                <option value="popularity">Popularity</option>
+            </select>
+            <button id="add-field">>></button>
+            <button id="remove-field"><<</button>
+            <select id="fields-to-display" multiple size="6"></select>
+        </div>
+        <button id="import-button">Import</button>
+    </div>
+    <table id="product-table">
+        <thead>
+
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+
+#c {
+    color: white;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: lightslategray;
+}
+
+table {
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: white;
+    color: #333;
+    font-size: 18px;
+}
+
+td {
+    background-color: white;
+    color: #333;
+    font-size: 16px;
+}
+
+thead tr {
+    background-color: transparent;
+    color: black;
+}
+
+tbody tr {
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+#column-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#available-fields, #fields-to-display {
+    width: 150px;
+    height: 100px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: lightgreen
+    
+}
